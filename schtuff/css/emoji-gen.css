@@ -1,0 +1,46 @@
+/* Basic body styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f9;
+}
+
+/* Title Styling */
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Button styling */
+#emojiButton {
+    padding: 15px 30px;
+    font-size: 1.5em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#emojiButton:hover {
+    background-color: #45a049;
+}
+
+/* Styling for the emoji display */
+#emojiDisplay {
+    font-size: 5em; /* Increase this to make the emojis larger */
+    margin-top: 20px;
+    color: #333;
+}
+
+/* Links for games - making them larger */
+a {
+    color: #000;
+    text-decoration: none;
+    display: block;
+    margin: 15px 0;
+    font-size: 2.5em;  /* Increased font size */
+}
