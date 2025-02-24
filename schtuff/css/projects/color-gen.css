@@ -1,0 +1,65 @@
+/* Basic body styling */
+body {
+    background-color: #ffffff;
+    font-family: monospace;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container styling */
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+    display: inline-block;
+}
+
+/* Title Styling */
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+/* Button styling */
+button {
+    background: none;
+    border: 10px solid #000;
+    color: #000;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Color Box Display */
+.color-box {
+    width: 500px;
+    height: 500px;
+    margin: 20px 0;
+    background-color: #FFFFFF; /* Default color */
+    border: 2px solid #000;
+}
+
+/* Code Styling */
+p {
+    font-size: 1.5em;
+    color: #000;
+}
+
+/* Links for games - making them larger */
+a {
+    color: #000;
+    text-decoration: none;
+    display: block;
+    margin: 15px 0;
+    font-size: 2.5em; /* Increased font size */
+}

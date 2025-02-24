@@ -1,0 +1,59 @@
+/* Basic body setup */
+body {
+    background: #ffffff;
+    color: #000;
+    font-family: monospace;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container styling */
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* Title Styling */
+h1 {
+    font-size: 6em;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+/* Username input field */
+#username {
+    font-size: 1.5em;
+    margin: 20px 0;
+    padding: 10px;
+    border: 2px solid #000; /* Changed to black border */
+    border-radius: 5px;
+    width: 250px;
+}
+
+/* Smaller Button styling */
+button {
+    background: none;
+    border: 5px solid #000; /* Thinner border */
+    color: #000;
+    padding: 5px 15px; /* Smaller padding */
+    font-size: 1.5em; /* Smaller font size */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Links for games - making them larger */
+a {
+    color: #000;
+    text-decoration: none;
+    display: block;
+    margin: 15px 0;
+    font-size: 2.5em; /* Increased font size */
+}
