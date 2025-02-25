@@ -1,0 +1,61 @@
+/* Ensure that the HTML and body tags allow scrolling */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+/* Set content container to handle overflow properly */
+#content-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.item {
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling the loading message */
+#loading {
+    text-align: center;
+    font-size: 18px;
+    color: #888;
+}
+
+/* Title Styling */
+h1 {
+    font-size: 6em;
+    margin-bottom: 20px;
+}
+
+/* Basic body setup */
+body {
+    background: #ffffff;
+    color: #000;
+    font-family: monospace;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Links for games - making them larger */
+a {
+    color: #000;
+    text-decoration: none;
+    display: block;
+    margin: 15px 0;
+    font-size: 2.5em; /* Increased font size */
+}
